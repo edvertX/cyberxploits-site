@@ -614,13 +614,14 @@
             content: '';
             z-index: -1;
             @media #{$xs}{
-                background-color: #3137D2;
+                background-color: #004aad;
                 height: 100%;
             }
         }
         &:hover{
             &::after{
-                background-color: #3137D2;
+                // background-color: #3137D2;
+                background-color: white;
                 height: 100%;
                 animation: bounceRight 2s;
             }
@@ -646,7 +647,8 @@
         font-weight: 700;
         font-size: 22px;
         line-height: 32px;
-        color: var(--tp-common-white);
+        // color: var(--tp-common-white);
+        color: black;
         padding-bottom: 15px;
         @media #{$xl}{
             font-size: 20px;
