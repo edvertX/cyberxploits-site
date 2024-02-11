@@ -41,6 +41,7 @@
 /*  01. THEME DEFAULT CSS START
 /*----------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat+Alternates:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Urbanist:wght@300;400;500;600;700;800&display=swap");
 :root {
   /**
@@ -1436,12 +1437,12 @@ input[type=color] {
 }
 @keyframes scale_up_down {
   0% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
   }
   100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
   }
 }
 @keyframes dash {
@@ -7305,10 +7306,13 @@ input[type=color] {
     padding-right: 0;
   }
 }
-.tp-about__main-img img {
+/* .tp-about__main-img img {
   box-shadow: 0px 16px 20px 10px rgba(1, 16, 61, 0.1);
   border-radius: 20px;
-}
+} */
+/* .tp-about__main-img img {
+  height: 300px;
+} */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-about__img-wrapper {
     margin-bottom: 150px;
@@ -8612,6 +8616,8 @@ input[type=color] {
 .tp-service-4-icon {
   margin-bottom: 60px;
   min-height: 96px;
+  display: flex;
+  justify-content: center;
 }
 .tp-service-4-border-right {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
