@@ -8525,9 +8525,9 @@ input[type=color] {
   overflow: hidden;
   /* border: 2px solid gray; */
 }
-.tp-service-4-item:hover {
+/* .tp-service-4-item:hover {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
-}
+} */
 /* .tp-service-4-item::before {
   position: absolute;
   top: 0;
