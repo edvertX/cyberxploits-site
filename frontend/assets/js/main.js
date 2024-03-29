@@ -1318,7 +1318,7 @@ if ($('.tp-header-top-animation').length > 0) {
 			}
 		}
 	}
-	itCursor();
+	//itCursor();
 
 
 	/* video controls*/
