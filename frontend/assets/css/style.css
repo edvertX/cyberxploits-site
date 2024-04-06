@@ -83,7 +83,8 @@
   --tp-grey-7: #F6F5FA;
   --tp-grey-8: #F7F9FB;
   --tp-text-body: #5F6368;
-  --tp-theme-1: #6865FF;
+  /* --tp-theme-1: #6865FF; */
+  --tp-theme-1: #0299E6;
   --tp-theme-2: #AEE87C;
   --tp-theme-3: #FFA8B8;
   --tp-theme-4: #F1A0AF;
@@ -570,7 +571,8 @@ input[type=color] {
 
 .tp-btn-blue-lg {
   display: inline-block;
-  background: #5B6CFF;
+  /* background: #5B6CFF; */
+  background: var(--tp-blue-c);
   box-shadow: inset -2px -2px 2px rgba(7, 13, 29, 0.3);
   border-radius: 100px;
   color: var(--tp-common-white);
@@ -671,7 +673,8 @@ input[type=color] {
 
 .tp-btn-blue-sm {
   display: inline-block;
-  background: #5B6CFF;
+  /* background: #5B6CFF; */
+  background: var(--tp-blue-c);
   box-shadow: inset -2px -2px 2px rgba(7, 13, 29, 0.3);
   border-radius: 100px;
   color: var(--tp-common-white);
@@ -3411,7 +3414,7 @@ input[type=color] {
 .tp-section-title-3 {
   font-family: var(--tp-ff-urban);
   font-weight: 700;
-  font-size: 58px;
+  font-size: 50px;
   line-height: 1.1;
   margin-bottom: 0;
 }
@@ -7601,9 +7604,9 @@ input[type=color] {
   border-radius: 8px;
 }
 
-.ab-brand-border-bottom {
+/* .ab-brand-border-bottom {
   border-bottom: 1px solid rgba(8, 8, 41, 0.1);
-}
+} */
 
 .ab-company-section-space {
   margin-bottom: 80px;
@@ -8425,15 +8428,19 @@ input[type=color] {
 .tp-service-sm-item:hover .tp-service-sm-link {
   opacity: 1;
   visibility: visible;
+  /* display: block; */
 }
 .tp-service-sm-item:hover .tp-service-sm-content {
   margin-bottom: 0px;
 }
-.tp-service-sm-item:hover .tp-service-sm-icon svg {
-  color: #5B6CFF;
-  width: 45px;
+.tp-service-sm-item:hover .tp-service-sm-icon i {
+  color: var(--tp-blue-c);
+  /* width: 45px; */
+  font-size: 40px;
+  /* width: 0px; */
 }
-.tp-service-sm-icon svg {
+.tp-service-sm-icon i {
+  font-size: 60px;
   transition: 0.3s;
   color: var(--tp-common-black);
 }
@@ -8489,6 +8496,7 @@ input[type=color] {
 .tp-service-sm-link {
   opacity: 0;
   visibility: hidden;
+  /* display: none; */
   transition: 0.3s;
 }
 .tp-service-sm-link a {
@@ -10165,6 +10173,10 @@ input[type=color] {
   right: 19%;
   animation: tptranslateX2 5s forwards infinite alternate;
 }
+
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+} */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-card-img-5 {
     top: 55%;
