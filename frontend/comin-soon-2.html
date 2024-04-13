@@ -25,43 +25,22 @@
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/style.css">
 
-   <style>
-    /* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-  position: fixed;
-  right: 0;
-  top: 0;
-  min-width: 100%;
-  /* min-height: 100%; */
-  height: 100vh;
-}
+   <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "loxd9em7mo");
+  </script>
+     <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SF01WV1L2V"></script>
+   <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
 
-/* Add some content at the bottom of the video/page */
-.content {
-  /* position: fixed; */
-  /* bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1; */
-  width: 100%;
-  padding: 20px;
-}
-
-/* Style the button used to pause/play the video */
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
-   </style>
+   gtag('config', 'G-SF01WV1L2V');
+   </script>
 </head>
 
 <body>
@@ -85,40 +64,12 @@
 
 
    <div id="smooth-wrapper">
-      <div id="smooth-content">
-        <!-- <video autoplay muted loop id="myVideo">
-            <source src="assets/comin-back.webm" type="video/mp4">
-        </video> -->
-        <main>
-            
-            <!-- <div class="tp-error-area tp-error-ptb p-relative">
-               <div class="tp-error-left-shape">
-                  <img src="assets/img/login/error-shape.png" alt="">
-               </div>
-               <div class="container">
-                  <div class="row">
-                     <div class="col-xl-12">
-                        <div class="tp-error-content-box text-center mb-40">
-                           <img src="assets/coming-soon/SL_030420_28660_08.jpg" alt="">
-                        </div>
-                        <div class="tp-error-text-box text-center">
-                           <h4 class="error-title-sm">Coming soon</h4>
-                           <p>The page vou are looking for does not exist'</p>
-                           <a class="tp-btn-inner tp-btn-hover alt-color-black" href="#">
-                              <span> Back To Home</span>
-                              <b></b>
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div> -->
-            <img src="assets/coming-soon/SL_030420_28660_08.jpg" alt="">
+        <main style="background-image: url(assets/coming-soon/coming-soon.webp); background-size: 100%; height: 100%; width: 100%;">
+            <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+               <!-- <h1 style="color: white; font-size: 150px;">COMING SOON</h1> -->
+               <img style="max-width: 500px;" src="assets/coming-soon/comin-soon-front.svg" />
+            </div>
          </main>
-
-         <!-- <script src="footer.js"></script> -->
-
-      </div>
    </div>
 
    <!-- JS here -->

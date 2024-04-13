@@ -2455,6 +2455,13 @@ input[type=color] {
     margin-top: 132px;
   }
 }
+@media (max-width: 426px) {
+  .about-banner-title {
+    font-size: 45px;
+    margin-left: 25px;
+    margin-top: 132px;
+  }
+}
 
 .about-img-height {
   min-height: 620px;
@@ -2507,6 +2514,13 @@ input[type=color] {
   .about-img-title {
     font-size: 50px;
     margin-left: 50px;
+    margin-top: -67px;
+  }
+}
+@media (max-width: 426px) {
+  .about-img-title {
+    font-size: 45px;
+    margin-left: 25px;
     margin-top: -67px;
   }
 }
@@ -7998,6 +8012,7 @@ input[type=color] {
   border-radius: 30px;
   padding: 50px 42px;
   transition: 0.3s;
+  min-height: 350px;
 }
 .tp-service__item:hover {
   border: 1px solid #E8EAF1;
@@ -8738,12 +8753,12 @@ input[type=color] {
 }
 
 .tp-service-five-section-box {
-  padding-left: 350px;
+  padding-left: 300px;
   padding-right: 60px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-service-five-section-box {
-    padding-left: 170px;
+    padding-left: 140px;
     padding-right: 0px;
   }
 }

@@ -36,11 +36,10 @@ document.write(`
                    <h4 class="tp-footer__widget-title">Solutions</h4>
                    <div class="tp-footer__content">
                       <ul>
-                         <li><a href="#">Vulnerability Assessment</a></li>
-                         <li><a href="#">Penetration Testing</a></li>
-                         <li><a href="#">Malware Analysis</a></li>
-                         <li><a href="#">Payment Systems Security Assessment</a></li>
-                         <li><a href="#">Digital Forensics</a></li>
+                         <li><a href="pentest.html">Penetration Testing</a></li>
+                         <li><a href="soc-2-compliance.html">SOC 2 Compliance</a></li>
+                         <li><a href="virtual-ciso.html">Virtual CISO</a></li>
+                         <li><a href="glba-compliancne.html">GLBA Compliance</a></li>
                       </ul>
                    </div>
                 </div>
