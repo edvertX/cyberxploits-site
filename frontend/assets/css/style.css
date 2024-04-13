@@ -3626,6 +3626,7 @@ input[type=color] {
 .tp-theme-color {
   transition: 0.3s;
   display: inline-block;
+  color: var(--tp-theme-1);
 }
 .tp-theme-color:hover {
   color: var(--tp-theme-1);
@@ -3634,6 +3635,7 @@ input[type=color] {
 .tp-green-color {
   transition: 0.3s;
   display: inline-block;
+  color: var(--tp-common-green);
 }
 .tp-green-color:hover {
   color: var(--tp-common-green);
@@ -3642,6 +3644,7 @@ input[type=color] {
 .tp-purple-color {
   transition: 0.3s;
   display: inline-block;
+  color: var(--tp-common-purple);
 }
 .tp-purple-color:hover {
   color: var(--tp-common-purple);
@@ -3650,6 +3653,7 @@ input[type=color] {
 .tp-yellow-color {
   transition: 0.3s;
   display: inline-block;
+  color: var(--tp-common-yellow);
 }
 .tp-yellow-color:hover {
   color: var(--tp-common-yellow);
@@ -8755,6 +8759,12 @@ input[type=color] {
 .tp-service-five-section-box {
   padding-left: 300px;
   padding-right: 60px;
+}
+.tp-faq-area {
+  display: none;
+}
+.ab-brand-area {
+  display: none;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-service-five-section-box {
