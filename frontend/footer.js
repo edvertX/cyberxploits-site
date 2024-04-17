@@ -12,10 +12,10 @@ document.write(`
                       </a>
                    </div>
                    <div class="tp-footer__contact-info">
-                      <a href="https://www.google.com.bd/maps/place/%E0%A6%B2%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A7%87%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%97/@49.8143242,5.5590915,10z/data=!3m1!4b1!4m5!3m4!1s0x479545b9ca212147:0x64db60f602d392ef!8m2!3d49.815273!4d6.129583"
-                         target="_blank">Seawoods, Navi Mumbai,<br>Maharastra, India</a>
+                      <a href="#"
+                         target="_blank">Maharastra, India</a>
                       <ul>
-                         <li>
+                         <li style="display: none;">
                             <span>
                               <img width="24" height="25" src="assets/img/footer/call-icon.png">
                             </span>
@@ -25,7 +25,7 @@ document.write(`
                             <span>
                                <img width="24" height="25" src="assets/img/footer/mail-icon.png">
                             </span>
-                            <a href="mailto:ceo@cyberxploitsllp.com">ceo@cyberxploitsllp.com</a>
+                            <a href="mailto:sales@cyberxploits.com">sales@cyberxploits.com</a>
                          </li>
                       </ul>
                    </div>
