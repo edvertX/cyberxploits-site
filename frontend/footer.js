@@ -13,7 +13,7 @@ document.write(`
                    </div>
                    <div class="tp-footer__contact-info">
                       <a href="#"
-                         target="_blank">Maharastra, India</a>
+                         target="_blank">Seawoods, Navi Mumbai <br>Maharastra, India</a>
                       <ul>
                          <li style="display: none;">
                             <span>
