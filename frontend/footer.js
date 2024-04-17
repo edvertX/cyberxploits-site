@@ -39,7 +39,7 @@ document.write(`
                          <li><a href="pentest.html">Penetration Testing</a></li>
                          <li><a href="soc-2-compliance.html">SOC 2 Compliance</a></li>
                          <li><a href="virtual-ciso.html">Virtual CISO</a></li>
-                         <li><a href="glba-compliancne.html">GLBA Compliance</a></li>
+                         <li><a href="glba-compliance.html">GLBA Compliance</a></li>
                       </ul>
                    </div>
                 </div>
